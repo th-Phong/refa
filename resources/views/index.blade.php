@@ -167,37 +167,29 @@
 
 
     <div class="blog">
-        <div class="blog__heading heading__section">Blog</div>
-
-        <div class="blog__news">
-            <div class="row">
-                <div class="blog__new-main col-xl-7">
-                    <img src="{{ URL::asset('images/Rectangle 78.png'); }}" alt="img-main-new" class="blog__new-main-img">
-                    <div class="blog__new-main-content">
-                        <div class="blog__new-main-heading"><a href="#" class="blog__new-link">Nghịch lý Song Hye Kyo càng già lại càng trẻ, hóa ra là có bi thuật đặc biệt.</a></div>
-                        <div class="blog__new-main-time">15:30 25/10/2021</div>
-                        <p class="blog__new-main-desc">Song Hye Kyo vốn là tượng đài nhan sắc của làng giải tri Hàn Quốc nói riêng và Châu Á nói chung. Cô cũng là hình mẫu nhan sắc được chị em ưu ái. Hiện tại đẫ ở tuổi U40, nhưng nữ diễn viên vẫn sỡ hữu nhan sắc ngọt ngào trẻ trung mê mẩn.</p>
-                    </div>
-                </div>
-                <div class="blog__new-extra col-xl-5">
-                    <div class="blog__new-extra-1 col-xl-12">
-                        <img src="{{ URL::asset('images/Rectangle 79.png'); }}" alt="img-main-new" class="blog__new-extra-img extra-1 ">
-                        <div class="blog__new-extra-content">
-                            <div class="blog__new-extra-heading"><a href="#" class="blog__new-link">Xu hướng này có trở thành cơn ác mộng tiếp theo đối với các thương hiệu xa xỉ ?</a></div>
-                            <div class="blog__new-extra-time">15:30 25/10/2021</div>
-                        </div>
-                    </div>
-
-                    <div class="blog__new-extra-2 col-xl-12">
-                        <img src="{{ URL::asset('images/Rectangle 80.png'); }}" alt="img-main-new" class="blog__new-extra-img extra-2 ">
-                        <div class="blog__new-extra-content">
-                            <div class="blog__new-extra-heading"><a href="#" class="blog__new-link">Kbiz có Jennie là đỉnh nhất, sang Cbiz và Vbiz thì ai xứng danh "Nữ hoàng"</a></div>
-                            <div class="blog__new-extra-time">15:30 25/10/2021</div>
-                        </div>
-                    </div>
-                </div>
+        <div class="blog__heading headinggit init_new-main-time">15:30 25/10/2021</div>
+        <p class="blog__new-main-desc">Song Hye Kyo vốn là tượng đài nhan sắc của làng giải tri Hàn Quốc nói riêng và Châu Á nói chung. Cô cũng là hình mẫu nhan sắc được chị em ưu ái. Hiện tại đẫ ở tuổi U40, nhưng nữ diễn viên vẫn sỡ hữu nhan sắc ngọt ngào trẻ trung mê mẩn.</p>
+    </div>
+    </div>
+    <div class="blog__new-extra col-xl-5">
+        <div class="blog__new-extra-1 col-xl-12">
+            <img src="{{ URL::asset('images/Rectangle 79.png'); }}" alt="img-main-new" class="blog__new-extra-img extra-1 ">
+            <div class="blog__new-extra-content">
+                <div class="blog__new-extra-heading"><a href="#" class="blog__new-link">Xu hướng này có trở thành cơn ác mộng tiếp theo đối với các thương hiệu xa xỉ ?</a></div>
+                <div class="blog__new-extra-time">15:30 25/10/2021</div>
             </div>
         </div>
+
+        <div class="blog__new-extra-2 col-xl-12">
+            <img src="{{ URL::asset('images/Rectangle 80.png'); }}" alt="img-main-new" class="blog__new-extra-img extra-2 ">
+            <div class="blog__new-extra-content">
+                <div class="blog__new-extra-heading"><a href="#" class="blog__new-link">Kbiz có Jennie là đỉnh nhất, sang Cbiz và Vbiz thì ai xứng danh "Nữ hoàng"</a></div>
+                <div class="blog__new-extra-time">15:30 25/10/2021</div>
+            </div>
+        </div>
+    </div>
+    </div>
+    </div>
     </div>
 
 
