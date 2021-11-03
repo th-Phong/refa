@@ -94,22 +94,22 @@
             </div>
         </div>
 
-        <button class="feature-product btn--shop-now">Đặt hàng nhận ưu đãi</button>
+        <button class="btn--shop-now">Đặt hàng nhận ưu đãi</button>
     </div>
 
-    <div class="story">
-        <div class="refa-story">
+    <div class="story row no-gutters">
+        <div class="refa-story col-xl-12">
             <img src="{{ URL::asset('images/CAXA_RAY_main_model_2 copy.png'); }}" alt="feature-product1" class="refa-story__img">
             <div class="refa-story__content">
                 <div class="refa-story__title">Câu chuyện về Refa</div>
                 <p class="refa-story__desc content-desc">Bị cuốn hút bởi những thay đổi này mà trang Bright Gide đã tổng hợp lại những màn cải tạo kinh điển của các vị chủ nhà và cũng xem đâu là sự thay đổi ấn tường nhất</p>
                 <a href="#" class="refa-story__link link--detail">Xem thêm</a>
             </div>
-
         </div>
-        <div class="product-story">
-            <img src="{{ URL::asset('images/Rectangle 73.png'); }}" alt="cay-lan-message" class="product-story__img">
-            <div class="product-story__content">
+
+        <div class="product-story row col-xl-12 no-gutters">
+            <img src="{{ URL::asset('images/Rectangle 73.png'); }}" alt="cay-lan-message" class="product-story__img col-xl-12">
+            <div class="product-story__content col-xl-12">
                 <div class="product-story__content-heading">
                     Cây lăn message
                 </div>
@@ -119,7 +119,7 @@
                 <a href="#" class="product-story__content-link link--detail">Xem thêm</a>
             </div>
 
-            <div class="product-story__content">
+            <div class="product-story__content col-xl-12">
                 <div class="product-story__content-heading">
                     Collagen
                 </div>
@@ -128,25 +128,25 @@
                 </p>
                 <a href="#" class="product-story__content-link link--detail">Coming Soon</a>
             </div>
-            <img src="{{ URL::asset('images/RF_vitalbeauty_KV_COLLzzAGEN.png'); }}" alt="cay-lan-message" class="product-story__img">
+            <img src="{{ URL::asset('images/RF_vitalbeauty_KV_COLLzzAGEN.png'); }}" alt="cay-lan-message" class="product-story__img col-xl-12">
         </div>
     </div>
 
 
     <div class="feedback">
         <div class="feedback__heading heading__section">Trải nghiệm thú vị cùng Refa</div>
-        <div class="feedback__content">
-            <div class="feedback__item">
+        <div class="feedback__content row">
+            <div class="feedback__item col-xl-4 col-md-4">
                 <img src="{{ URL::asset('images/Rectangle 59.png'); }}" alt="img-review-1" class="feedback__item-img">
                 <div class="feedback__item-name">Emmi Hoang</div>
                 <p class="feedback__item-review">"Tôi dùng Refa mỗi ngày và cảm nhận nếp nhắn được cải thiện rõ rệt</p>
             </div>
-            <div class="feedback__item">
+            <div class="feedback__item col-xl-4 col-md-4">
                 <img src="{{ URL::asset('images/Rectangle 60.png'); }}" alt="img-review-2" class="feedback__item-img">
                 <div class="feedback__item-name">Kiên Hoàng</div>
                 <p class="feedback__item-review">"Đến nay mình đã có trọn bộ thanh lăn Refa và mình mãn nguyện với điều đó</p>
             </div>
-            <div class="feedback__item">
+            <div class="feedback__item col-xl-4 col-md-4">
                 <img src="{{ URL::asset('images/Rectangle 67.png'); }}" alt="img-review-3" class="feedback__item-img">
                 <div class="feedback__item-name">Tyhd Thùy Dương</div>
                 <p class="feedback__item-review">"Một phụ kiện mà mình luôn mang theo mọi nơi và không thể thiếu trong túi sách của mình</p>
@@ -172,7 +172,7 @@
 
         <div class="blog__news">
             <div class="row">
-                <div class="blog__new-main col-xl-7">
+                <div class="blog__new-main col-xl-7 col-lg-7">
                     <img src="{{ URL::asset('images/Rectangle 78.png'); }}" alt="img-main-new" class="blog__new-main-img">
                     <div class="blog__new-main-content">
                         <div class="blog__new-main-heading"><a href="#" class="blog__new-link">Nghịch lý Song Hye Kyo càng già lại càng trẻ, hóa ra là có bi thuật đặc biệt.</a></div>
@@ -180,17 +180,17 @@
                         <p class="blog__new-main-desc">Song Hye Kyo vốn là tượng đài nhan sắc của làng giải tri Hàn Quốc nói riêng và Châu Á nói chung. Cô cũng là hình mẫu nhan sắc được chị em ưu ái. Hiện tại đẫ ở tuổi U40, nhưng nữ diễn viên vẫn sỡ hữu nhan sắc ngọt ngào trẻ trung mê mẩn.</p>
                     </div>
                 </div>
-                <div class="blog__new-extra col-xl-5">
-                    <div class="blog__new-extra-1 col-xl-12">
-                        <img src="{{ URL::asset('images/Rectangle 79.png'); }}" alt="img-main-new" class="blog__new-extra-img extra-1 ">
+                <div class="blog__new-extra col-xl-5 col-lg-5 row no-gutters">
+                    <div class="blog__new-extra-1 col-xl-12 col-lg-12">
+                        <img src="{{ URL::asset('images/Rectangle 79.png'); }}" alt="img-main-new" class="blog__new-extra-img extra-1">
                         <div class="blog__new-extra-content">
                             <div class="blog__new-extra-heading"><a href="#" class="blog__new-link">Xu hướng này có trở thành cơn ác mộng tiếp theo đối với các thương hiệu xa xỉ ?</a></div>
                             <div class="blog__new-extra-time">15:30 25/10/2021</div>
                         </div>
                     </div>
 
-                    <div class="blog__new-extra-2 col-xl-12">
-                        <img src="{{ URL::asset('images/Rectangle 80.png'); }}" alt="img-main-new" class="blog__new-extra-img extra-2 ">
+                    <div class="blog__new-extra-2 col-xl-12 col-lg-12">
+                        <img src="{{ URL::asset('images/Rectangle 80.png'); }}" alt="img-main-new" class="blog__new-extra-img extra-2">
                         <div class="blog__new-extra-content">
                             <div class="blog__new-extra-heading"><a href="#" class="blog__new-link">Kbiz có Jennie là đỉnh nhất, sang Cbiz và Vbiz thì ai xứng danh "Nữ hoàng"</a></div>
                             <div class="blog__new-extra-time">15:30 25/10/2021</div>
@@ -204,8 +204,8 @@
 
     <div class="shop-system">
         <div class="shop-system__heading heading__section">Hệ thống cửa hàng</div>
-        <div class="shop-system__content">
-            <div class="shop-system__item">
+        <div class="shop-system__content row">
+            <div class="shop-system__item col-xl-4 col-md-4 col-12">
                 <img src="{{ URL::asset('images/img_stores.png'); }}" alt="refa-store-1" class="shop-system__item-img">
                 <div class="shop-system__item-title">
                     <span class="shop-system__item-number">__ 1</span>
@@ -214,8 +214,8 @@
                 <p class="shop-system__item-address"><i class="fas fa-map-marker-alt"></i> Tầng trệt, TTTM Takashimaya, 65 Lê Lợi, P. Bến Nghế, Q.1, TP. Hồ Chí Minh </p>
             </div>
 
-            <div class="shop-system__item">
-                <img src="{{ URL::asset('images/img_stores.png'); }}" alt="refa-store-2" class="shop-system__item-img">
+            <div class="shop-system__item col-xl-4 col-md-4 col-12">
+                <img src=" {{ URL::asset('images/img_stores.png'); }}" alt="refa-store-2" class="shop-system__item-img">
                 <div class="shop-system__item-title">
                     <span class="shop-system__item-number">__ 2</span>
                     <span class="shop-system__item-name">Vạn Hạnh Mall</span>
@@ -225,7 +225,7 @@
                 </p>
             </div>
 
-            <div class="shop-system__item">
+            <div class="shop-system__item col-xl-4 col-md-4 col-12">
                 <div style="position: relative;">
                     <img src="{{ URL::asset('images/z2711556674691_2cea83b8a41c4edf8f1b37fceaf89f5d.png'); }}" alt="refa-store-new" class="shop-system__item-img new-shop">
                     <img src="{{ URL::asset('images/Image 26.png'); }}" alt="refa-store-new" class="sticky-new-shop">
@@ -258,7 +258,7 @@
                 </div>
                 <button class="register-sale__button">Đăng ký</button>
             </div>
-            <div class="footer__social-network col-xl-3">
+            <div class="footer__social-network col-xl-3 col-md-12">
                 <div class="social-network__heading">
                     Theo dõi Refa trên
                 </div>
@@ -270,7 +270,7 @@
             </div>
             <div class="footer__contact-about-license col-xl-5 row">
                 <div class="contact-about col-xl-12 row">
-                    <div class="contact__link col-xl-6">
+                    <div class="contact__link col-xl-6 col-md-6">
                         <div class="contact__link-heading">
                             Liên hệ
                         </div>
@@ -292,7 +292,7 @@
                         </div>
                     </div>
 
-                    <div class="about__link col-xl-6">
+                    <div class="about__link col-xl-6 col-md-6">
                         <div class="about__link-heading">
                             Về Refa
                         </div>
